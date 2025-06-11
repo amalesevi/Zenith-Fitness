@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+footer {
+  background-color: $dark;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+
+  nav {
+    margin-top: 1rem;
+
+    a {
+      color: $primary;
+      margin: 0 0.5rem;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

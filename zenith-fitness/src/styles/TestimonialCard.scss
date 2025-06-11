@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card {
+  background-color: white;
+  color: $dark;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+
+  blockquote {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    font-weight: bold;
+    color: $primary; // Changed for better contrast
+  }
+}
